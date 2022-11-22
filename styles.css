@@ -49,13 +49,27 @@ main{
     background-color: #FFA185;
     height: 145vh;
 }
-aside{
-    /*border: red solid 2px ;*/
-    font-size: 24px ;    
-    width: 80vw;
-    position: relative;
-    left: 4vh;
-    padding: 10vh;
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 78vw;
+    height:24vh ;
+}
+h3{
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    width: 96%;
+    height: 15vh;
+}
+div p{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    width: 96%;
 }
 .secondh2{
     font-size: 40px;
@@ -70,20 +84,21 @@ aside{
     width: 40vw;
     height: 40vh;
 }
-div{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
+.secondP{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 700;
+        font-family: "Roboto", sans-serif;
+        height: 8vh;
 }
 footer{
     background-color: #129799;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:20vh;
-     border: solid salmon; 
+    height:20vh; 
 }
 .footerimages{
     display: flex;
