@@ -96,18 +96,23 @@ div p{
 footer{
     background-color: #129799;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height:20vh; 
 }
-.footerimages{
+.sectionFooter{
     display: flex;
-    justify-content: center;
-    width: 5vw;
-    height: 5vh;
-    margin: 12px;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    width: 45vw;
+}
+.footerimages{
+    width: 4vw;
+    height: 4vh;
+    margin: 8px;
 }
 .footerli{
     /*border: solid blue 2px;*/
-    width: 55vw;
+    width: 50vw;
 }
